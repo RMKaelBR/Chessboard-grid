@@ -1,0 +1,85 @@
+#board {
+    display: grid;
+    border: 10px solid black;
+    height: calc(95vmin);
+    width: calc(95vmin);
+    grid-template: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% / 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+
+}
+
+.dark {
+    background-color: rgb(155, 194, 162);
+}
+
+.light {
+    background: rgb(255, 253, 232);
+}
+
+.piece {
+    position: relative;
+    top: 5%;
+    height: 80%;
+}
+
+#dungeon-king {
+    left: 30%;
+    max-width:max-content;
+    max-height:max-content;
+}
+
+/* #dungeon-queen {
+
+} */
+
+#dungeon-rook {
+    top: 15%;
+    left: 5%;
+    max-height:70%;
+}
+
+#dungeon-knight {
+    left: 10%;
+    max-height:max-content;
+}
+
+#dungeon-bishop {
+    top: 20%;
+    max-height:60%;
+}
+
+#dungeon-pawn {
+    top: 10%;
+    left: 15%;
+    max-height: 70%;
+}
+
+#castle-king {
+    left: 30%;
+    max-height:max-content;
+}
+
+#castle-queen {
+    left: 5%;
+    height: 100%;
+}
+
+#castle-rook {
+    height: 80%;
+}
+
+#castle-knight {
+    top: 15%;
+    left: 5%;
+    max-height: 70%;
+}
+
+#castle-bishop {
+    top: 20%;
+    left: 15%;
+    max-height: 65%;
+}
+
+#castle-pawn {
+    left: auto;
+    width: auto;
+}
